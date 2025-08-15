@@ -1,0 +1,9 @@
+export const nodeLogo="https://img.icons8.com/fluency/48/node-js.png";
+export const reactlogo="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png";
+export const javascriptLogo="https://img.icons8.com/fluency/48/javascript.png";
+export const GitLogo="https://img.icons8.com/color/48/git.png";
+export const pythonLogo="https://img.icons8.com/color/48/python--v1.png";
+export const javaLogo="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png";
+export const mysqlLogo="https://img.icons8.com/color/48/mysql-logo.png";
+export const tailwindLogo="https://img.icons8.com/fluency/48/tailwind_css.png";
+export const awsLogo="https://img.icons8.com/color/48/amazon-web-services.png";

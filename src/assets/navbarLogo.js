@@ -1,0 +1,1 @@
+export const nameLogo="https://brandeps.com/logo-download/S/SC-logo-vector-01.svg"
