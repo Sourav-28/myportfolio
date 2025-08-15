@@ -1,4 +1,4 @@
-import graph from './graph.png'
+import graph from './Graph.png'
 
 const myWorkData = [
     {
