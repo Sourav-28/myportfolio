@@ -10,7 +10,7 @@ const myWorkData = [
     {
         id:2,
         title:"Graph Visualizer",
-        w_img:graph,
+        w_img: graph,
         github:"https://github.com/Sourav-28/graph-Visualizer"
     },
     {
