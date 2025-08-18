@@ -30,7 +30,7 @@
     /* gap:80px; */
     /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
     gap:80px;
-    width:100%;
+    width:70%;
 }
 
 /* .mywork-container img{
@@ -51,6 +51,11 @@
   text-decoration: none;
   color: inherit;
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+
+  aspect-ratio: 16 / 9;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .work-card:hover{
@@ -68,9 +73,11 @@
 
 .work-img{
   width: 100%;
-  aspect-ratio: 16 / 10;   /* keeps a neat box */
-  object-fit: cover;
-  display: block;
+  height: 100%;
+  object-fit: contain;             
+  object-position: center;         
+  background: #111;               
+  padding: 8px;                    
 }
 
 .work-overlay{
