@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import './contact123.css'
 import {theme} from '../../assets/theme.js'
 import {mailIcon,phoneIcon,locationIcon} from '../../assets/icons.js'
 // import { byPrefixAndName } from 'react-fontawesome';
