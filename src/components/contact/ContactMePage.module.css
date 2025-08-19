@@ -1,5 +1,4 @@
-/* ContactMePage.module.css */
-
+/* Container */
 .root {
   display: flex;
   flex-direction: column;
@@ -9,6 +8,7 @@
   margin: 80px 90px 0 100px;
 }
 
+/* Title */
 .title { position: relative; }
 
 .title h1 {
@@ -24,13 +24,14 @@
   z-index: -1;
 }
 
+/* Two columns */
 .section {
-  /* choose one layout; grid is cleaner */
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 100px;
 }
 
+/* Left block */
 .left {
   display: flex;
   flex-direction: column;
@@ -54,6 +55,7 @@
   text-align: justify;
 }
 
+/* Contact links */
 .details {
   display: flex;
   flex-direction: column;
@@ -66,10 +68,11 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
+/* Right (form) */
 .right {
   display: flex;
   flex-direction: column;
@@ -77,13 +80,14 @@
   gap: 30px;
 }
 
-.right label {
+/* Label, Input, Textarea (direct classes – no descendant selectors) */
+.label {
   color: #D8D8D8;
   font-size: 22px;
   font-weight: 500;
 }
 
-.right input {
+.input {
   border: none;
   width: 700px;
   height: 78px;
@@ -95,7 +99,7 @@
   background: #32323c;
 }
 
-.right textarea {
+.textarea {
   width: 670px;
   border: none;
   padding: 25px;
@@ -106,6 +110,7 @@
   font-family: 'Outfit', sans-serif;
 }
 
+/* Button */
 .button {
   border: none;
   color: #fff;
@@ -122,14 +127,19 @@
 /* Mobile */
 @media (max-width: 768px) {
   .root { align-items: start; margin: 50px 70px; gap: 50px; }
+
   .title h1 { font-size: 50px; padding: 0; font-weight: 600; }
   .title img { width: 130px; margin-right: -20px; }
+
   .section { grid-template-columns: 1fr; gap: 40px; }
+
   .left h1 { font-size: 54px; }
   .left p { font-size: 18px; }
+
   .details { gap: 20px; }
-  .right label { font-size: 20px; }
-  .right input { width: 100%; font-size: 20px; }
-  .right textarea { width: 95%; font-size: 20px; }
+
+  .label { font-size: 20px; }
+  .input { width: 100%; font-size: 20px; }
+  .textarea { width: 95%; font-size: 20px; }
   .button { padding: 15px 40px; font-size: 20px; }
 }
